@@ -7,7 +7,7 @@ cursor = con.cursor()
 # Comando para inserir dados nas tabelas individualmente
 cursor.execute("""
     insert into clientes(nome, cpf)
-    values ("Jean Charles", "616.803.353-08")
+    values ("Jean Charles", "000.000.000-00")
 """)
 # Adicionar vários dados de uma vez
 cadastros = [
